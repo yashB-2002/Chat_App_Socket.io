@@ -25,5 +25,5 @@ socket.on("recievedByServer", (d) => {
   addInPage(`${d.username} : ${d.msg}`, "left");
 });
 socket.on("userhasleft", (uName) => {
-  addInPage(`${uName} has joined the meeting!!`, "center");
+  addInPage(`${uName} has left the meeting!!`, "center");
 });
